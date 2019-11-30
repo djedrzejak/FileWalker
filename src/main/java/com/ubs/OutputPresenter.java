@@ -17,8 +17,8 @@ public class OutputPresenter implements Runnable {
 	public void run() {
 		while(true) {
 			try {
-				Thread.sleep(SLEEP_TIME);
 				System.out.println(getResult());
+				Thread.sleep(SLEEP_TIME);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

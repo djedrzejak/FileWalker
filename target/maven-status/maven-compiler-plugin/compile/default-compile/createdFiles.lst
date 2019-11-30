@@ -1,7 +1,0 @@
-com\ubs\queue\BoundedQueue.class
-com\ubs\FileWalker.class
-com\ubs\OutputPresenter.class
-com\ubs\Application.class
-com\ubs\queue\BoundedQueueNode.class
-com\ubs\WordCounter.class
-com\ubs\queue\BoundedLinkedQueue.class
