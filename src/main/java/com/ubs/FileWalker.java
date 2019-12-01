@@ -43,4 +43,8 @@ public class FileWalker implements Runnable {
 			}
 		}
 	}
+	
+	public BoundedQueue<File> getFiles() {
+		return files;
+	}
 }

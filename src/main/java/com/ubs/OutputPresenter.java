@@ -25,7 +25,7 @@ public class OutputPresenter implements Runnable {
 		}
 	}
 	
-	private String getResult() {
+	protected String getResult() {
 		StringBuilder result = new StringBuilder();
 		for (String word : selectedWords) {
 			result.append(word).append("=");

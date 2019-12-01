@@ -34,12 +34,11 @@ public class WordCounter implements Runnable {
 		}	
 	}
 	
-	private void readFile() {
+	protected void readFile() {
 		File file = files.get();
 		String line;
 		String[] wordsFromLine;
-		try {
-			Scanner scanner = new Scanner(file);
+		try (Scanner scanner = new Scanner(file);) {
 			while(scanner.hasNextLine()) {
 				line = scanner.nextLine();
 				wordsFromLine = line.split("\\s+");
@@ -47,9 +46,8 @@ public class WordCounter implements Runnable {
 					words.merge(word, 1, Integer::sum);
 				}
 			}
-			scanner.close();
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			throw new IllegalArgumentException();
 		}
 	}
 }

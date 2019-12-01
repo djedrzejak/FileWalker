@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ubs.WordCounterTest" time="0.002" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.ubs.ApplicationIT" time="7.063" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.class.path" value="C:\Users\Damian\java-workspace\FileWalker\target\test-classes;C:\Users\Damian\java-workspace\FileWalker\target\classes;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\Damian\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\Damian\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\Damian\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Damian\java-workspace\FileWalker\target\test-classes;C:\Users\Damian\java-workspace\FileWalker\target\FileWalker.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\Damian\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\Damian\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\Damian\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Damian\AppData\Local\Temp\surefire1891209849246319352\surefirebooter4725222083590972494.jar C:\Users\Damian\AppData\Local\Temp\surefire1891209849246319352 2019-12-01T20-04-20_484-jvmRun1 surefire12237017780920940982tmp surefire_03574404226309319734tmp"/>
+    <property name="sun.java.command" value="C:\Users\Damian\AppData\Local\Temp\surefire7819383971416954202\surefirebooter5877740449717006912.jar C:\Users\Damian\AppData\Local\Temp\surefire7819383971416954202 2019-12-01T20-04-22_825-jvmRun1 surefire14464757932386527823tmp surefire_014997441978288624096tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Damian\java-workspace\FileWalker\target\test-classes;C:\Users\Damian\java-workspace\FileWalker\target\classes;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\Damian\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\Damian\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\Damian\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Damian\java-workspace\FileWalker\target\test-classes;C:\Users\Damian\java-workspace\FileWalker\target\FileWalker.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.0\junit-jupiter-engine-5.0.0.jar;C:\Users\Damian\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-engine\1.0.0\junit-platform-engine-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.0\junit-jupiter-api-5.0.0.jar;C:\Users\Damian\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\Damian\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\Damian\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.0.0\junit-jupiter-params-5.0.0.jar;C:\Users\Damian\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Damian"/>
     <property name="user.language" value="pl"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Damian\AppData\Local\Temp\surefire1891209849246319352\surefirebooter4725222083590972494.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Damian\AppData\Local\Temp\surefire7819383971416954202\surefirebooter5877740449717006912.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -55,10 +55,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="shouldThrowIllegalArgumentExceptionIfFileInQueueIsIncorrect" classname="com.ubs.WordCounterTest" time="0"/>
-  <testcase name="shouldCountSelectedWordFromTwoFiles" classname="com.ubs.WordCounterTest" time="0"/>
-  <testcase name="shouldThrowNullPointerExceptionWhenTryToGetFileFromEmptyQueue" classname="com.ubs.WordCounterTest" time="0"/>
-  <testcase name="shouldAddWordsFromFileToMap" classname="com.ubs.WordCounterTest" time="0"/>
-  <testcase name="shouldFindSpecifiedWordXTimesInFile" classname="com.ubs.WordCounterTest" time="0"/>
-  <testcase name="shouldNotAddToMapWordThatWasNotFoundInFile" classname="com.ubs.WordCounterTest" time="0"/>
+  <testcase name="shouldFulfillQueueAndGetAllValuesFromIt" classname="com.ubs.ApplicationIT" time="4.031"/>
+  <testcase name="shouldPresentGivenValues" classname="com.ubs.ApplicationIT" time="3.009"/>
 </testsuite>

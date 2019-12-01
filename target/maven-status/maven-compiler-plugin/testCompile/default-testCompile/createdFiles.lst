@@ -1,3 +1,4 @@
 com\ubs\OutputPresenterTest.class
 com\ubs\WordCounterTest.class
+com\ubs\ApplicationIT.class
 com\ubs\FileWalkerTest.class
